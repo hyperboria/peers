@@ -3,7 +3,7 @@ listing public peers
 
 ## Adding your public node's credentials
 
-If you've created a public node, and would like to have it listed here, fork the repo, add a valid .json file, and submit a PR.
+If you've created a public node, and would like to have it listed here, fork the repo, add a keyfile, and submit a PR.
 
 ## Nodeinfo.json
 
@@ -68,10 +68,5 @@ By following this scheme, we make it possible for users to programmatically find
 
 ## Naming your entry
 
-Files should be named to match your node's public key, like so:
-
-`ssxlh80x0bqjfrnbkm1801xsxyd8zd45jkwn1zhlnccqj4hdqun0.k`
-
-This allows anyone crawling the directory to easily check whether they'd already added a node without having to read the file itself.
-
+You can name your file whatever you want, but for simplicity's sake, avoid characters which will need to be escaped at the command line.
 
