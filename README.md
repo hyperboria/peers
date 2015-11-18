@@ -68,9 +68,9 @@ By following this scheme, we make it possible for users to programmatically find
 
 ## Naming your entry
 
-Files should be named to match your node's public key, with a `.json` trailing, like so:
+Files should be named to match your node's public key, like so:
 
-`ssxlh80x0bqjfrnbkm1801xsxyd8zd45jkwn1zhlnccqj4hdqun0.k.json`
+`ssxlh80x0bqjfrnbkm1801xsxyd8zd45jkwn1zhlnccqj4hdqun0.k`
 
 This allows anyone crawling the directory to easily check whether they'd already added a node without having to read the file itself.
 
