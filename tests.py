@@ -6,12 +6,9 @@ import sys
 REQUIRED_FIELDS = ['publicKey', 'password', 'contact']
 
 
-RED = '\033[91m'
-GREEN = '\033[92m'
-YELLOW = '\033[93m'
-LIGHT_PURPLE = '\033[94m'
-PURPLE = '\033[95m'
-END = '\033[0m'
+RED = '\x1b[01;31m'
+GREEN = '\x1b[01;32m'
+END = '\x1b[0m'
 
 
 def validate(path):
