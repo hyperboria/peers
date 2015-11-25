@@ -7,7 +7,7 @@ If you've created a public node, and would like to have it listed here, fork the
 
 ## Nodeinfo.json
 
-This repository is meant to extend the [nodeinfo.json standard](https://github.com/hyperboria/docs/blob/master/cjdns/nodeinfo-json.md "nodeinfo.json standard, from Hyperboria's docs repo"). 
+This repository is meant to extend the [nodeinfo.json standard](https://github.com/hyperboria/docs/blob/master/cjdns/nodeinfo-json.md "nodeinfo.json standard, from Hyperboria's docs repo").
 `nodeinfo.json` is a valid [JSON](http://www.json.org/ "the Javascript Object Notation standard") file hosted on a webserver's root which displays information about that node:
 
 * services it hosts
@@ -65,10 +65,7 @@ By following this scheme, we make it possible for users to programmatically find
 ```
 
 > Note: the snippet above is **not valid json**. It would need to be wrapped in an additional block of curly braces `{  }`
->
-> We will create a linter that validates such blocks (coming soon).
 
 ## Naming your entry
 
 You can name your file whatever you want, but for simplicity's sake, avoid characters which will need to be escaped at the command line.
-
