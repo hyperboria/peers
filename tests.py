@@ -39,13 +39,17 @@ def validate(path):
         print("    %sInvalid JSON!%s" % (RED, END))
         return False
 
-success = True
-for directory, subdirs, files in os.walk('.'):
-    if len(files) > 0:
-        for f in files:
-            if f.endswith('.k'):
-                result = validate("%s/%s" % (directory, f))
-                if not result:
-                    success = False
-if not success:
-    sys.exit(1)
+if __name__ == "__main__":
+    success = True
+    if len(sys.argv) == 2:
+        success = validate(sys.argv[1])
+    else:
+        for directory, subdirs, files in os.walk('.'):
+            if len(files) > 0:
+                for f in files:
+                    if f.endswith('.k'):
+                        result = validate("%s/%s" % (directory, f))
+                        if not result:
+                            success = False
+    if not success:
+        sys.exit(1)
