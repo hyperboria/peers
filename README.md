@@ -1,4 +1,5 @@
-# peers
+# peers [![Build Status](https://secure.travis-ci.org/hyperboria/peers.png)](http://travis-ci.org/hyperboria/peers)
+
 listing public peers
 
 ## Adding your public node's credentials
