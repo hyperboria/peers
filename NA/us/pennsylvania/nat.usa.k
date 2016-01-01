@@ -5,4 +5,4 @@
 	"website": "https://github.com/NateBrune",
 	"publicKey": "vgxqyputh4ldhxktg9msmr61pw938l0ymhkmryljsyzvmr0dtwy0.k",
 	"password": "Public",
-},
+}
