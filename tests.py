@@ -39,8 +39,8 @@ def validate(path):
                 for server in GPG_SERVERS:
                     gpg_result = gpg.recv_keys(server, peers[host]['gpg'])
                     print("    %s%s key(s) found on %s when searching for %s%s" %
-                         (YELLOW, gpg_result.count, server, peers[host]['gpg'], END))
-                    if gpg_result.count > 0:
+                         (YELLOW, len(gpg_result.results), server, peers[host]['gpg'], END))
+                    if len(gpg_result.results) > 0:
                         is_on_keyserver = True
                 if not is_on_keyserver:
                     print("    %s%s not found on any keyserver%s" %
