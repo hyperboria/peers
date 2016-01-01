@@ -2,14 +2,18 @@
 import json
 import os
 import sys
+import gnupg
 
 REQUIRED_FIELDS = ['publicKey', 'password', 'contact']
 RECOMMENDED_FIELDS = ['gpg']
+GPG_SERVERS = ["pgp.mit.edu", "keys.gnupg.net"]
 
 RED = '\x1b[01;31m'
 GREEN = '\x1b[01;32m'
 YELLOW = '\x1b[01;33m'
 END = '\x1b[0m'
+
+gpg = gnupg.GPG()
 
 
 def validate(path):
@@ -30,6 +34,18 @@ def validate(path):
                     warning = True
                     print("    %sHost %s is missing the recommended field %s%s" % (YELLOW, host,
                                                                                    field, END))
+            if "gpg" in peers[host]:
+                is_on_keyserver = False
+                for server in GPG_SERVERS:
+                    gpg_result = gpg.recv_keys(server, peers[host]['gpg'])
+                    print("    %s%s key(s) found on %s when searching for %s%s" %
+                         (YELLOW, gpg_result.count, server, peers[host]['gpg'], END))
+                    if gpg_result.count > 0:
+                        is_on_keyserver = True
+                if not is_on_keyserver:
+                    print("    %s%s not found on any keyserver%s" %
+                          (RED, peers[host]['gpg'], END))
+                    return False
         if warning:
             print("    %sSuccess, but missing recommended fields%s" % (YELLOW, END))
         else:
