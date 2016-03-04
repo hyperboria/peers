@@ -1,6 +1,6 @@
 sudo: false
-addons:
-  apt:
-    packages:
-      - python3
+python:
+  - "3.4"
+language: python
+install: "pip install gnupg"
 script: ./tests.py
