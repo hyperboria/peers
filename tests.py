@@ -18,9 +18,20 @@ def validate(path):
     print("Validating %s" % path)
     try:
         creds = open(path).read()
-        peers = json.loads("{%s}" % creds)
+        peers = json.loads(creds)
+        # Check formatting
+        pretty = json.dumps(peers, sort_keys=True, indent=4, separators=(',', ':'))
+        pretty = "%s\n" % pretty
+        formatting = True
+        if pretty != creds:
+            if "--clean" in sys.argv:
+                with open(path, 'w') as outfile:
+                    outfile.write(pretty)
+                print("    %sJSON in %s has been fixed.%s" % (YELLOW, path, END))
+            else:
+                print("    %sJSON in %s is NOT properly formatted.%s" % (YELLOW, path, END))
+                formatting = False
         hosts = peers.keys()
-        warning = False
         for host in hosts:
             for field in REQUIRED_FIELDS:
                 if field not in peers[host]:
@@ -29,29 +40,22 @@ def validate(path):
                     return False
             for field in RECOMMENDED_FIELDS:
                 if field not in peers[host]:
-                    warning = True
                     print("    %sHost %s is missing the recommended field %s%s" % (YELLOW, host,
                                                                                    field, END))
-        if warning:
-            print("    %sSuccess, but missing recommended fields%s" % (YELLOW, END))
-        else:
-            print("    %sSuccess!%s" % (YELLOW, END))
-        return True
+        if not formatting:
+            return False
     except ValueError:
         print("    %sInvalid JSON!%s" % (RED, END))
         return False
 
 if __name__ == "__main__":
     success = True
-    if len(sys.argv) == 2:
-        success = validate(sys.argv[1])
-    else:
-        for directory, subdirs, files in os.walk('.'):
-            if len(files) > 0:
+    for directory, subdirs, files in os.walk('.'):
+        if len(files) > 0:
+            if directory != '.' and not directory.startswith('./.git'):
                 for f in files:
-                    if f.endswith('.k'):
-                        result = validate("%s/%s" % (directory, f))
-                        if not result:
-                            success = False
+                    result = validate("%s/%s" % (directory, f))
+                    if not result:
+                        success = False
     if not success:
         sys.exit(1)
