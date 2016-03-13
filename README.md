@@ -51,16 +51,21 @@ By following this scheme, we make it possible for users to programmatically find
   + ip/port
   + password
   + publicKey
-* They should also contain a means of contacting the operator.
-* credentials should end with a newline character.
+  + contact info (preferably email)
+* If you have GPG key then include your full key fingerprint.
+* Indentation is 4 spaces.
+* There should be space after a colon.
+* Credentials should end with a newline character.
+* There is formatting script available `format.sh`. It requires `jq` utility.
 
 
 ```
 "192.168.1.5:10326": {
     "login": "default-login",
-    "password":"nq1uhmf06k8c5594jqmpgy26813b81s",
-    "publicKey":"ssxlh80x0bqjfrnbkm1801xsxyd8zd45jkwn1zhlnccqj4hdqun0.k",
-    "peerName":"your-name-goes-here"
+    "password": "nq1uhmf06k8c5594jqmpgy26813b81s",
+    "publicKey": "ssxlh80x0bqjfrnbkm1801xsxyd8zd45jkwn1zhlnccqj4hdqun0.k",
+    "peerName": "your-name-goes-here",
+    "contact": "j.smith@example.com"
 }
 
 ```
