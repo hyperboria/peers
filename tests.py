@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""Checks that the peering details in this repo conform to a few basic rules."""
 import json
 import os
 import sys
@@ -13,6 +14,7 @@ END = '\x1b[0m'
 
 
 def validate(path):
+    """Test a single set of peering creds."""
     print("Validating %s" % path)
     try:
         creds = open(path).read()
@@ -21,12 +23,12 @@ def validate(path):
         warning = False
         for host in hosts:
             for field in REQUIRED_FIELDS:
-                if not field in peers[host]:
+                if field not in peers[host]:
                     print("    %sHost %s is missing the required field %s%s" % (RED, host,
                                                                                 field, END))
                     return False
             for field in RECOMMENDED_FIELDS:
-                if not field in peers[host]:
+                if field not in peers[host]:
                     warning = True
                     print("    %sHost %s is missing the recommended field %s%s" % (YELLOW, host,
                                                                                    field, END))
