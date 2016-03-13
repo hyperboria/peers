@@ -42,7 +42,9 @@ def validate(path):
                 if field not in peers[host]:
                     print("    %sHost %s is missing the recommended field %s%s" % (YELLOW, host,
                                                                                    field, END))
-        if not formatting:
+        if formatting:
+            return True
+        else:
             return False
     except ValueError:
         print("    %sInvalid JSON!%s" % (RED, END))
