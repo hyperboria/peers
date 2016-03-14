@@ -45,27 +45,27 @@ By following this scheme, we make it possible for users to programmatically find
 
 ## JSON formatting
 
-* Your credentials must be [valid JSON](http://jsonlint.com/) when inserted into a block of curly braces `{}`
+* Your credentials must be [valid JSON](http://jsonlint.com/).
 * They should be small enough so as to be inserted into a `cjdroute.conf` **as is** without triggering the [connectTo-overflow bug](https://github.com/hyperboria/docs/blob/master/bugs/connectTo-overflow.md).
 * They must contain the necessary fields:
   + ip/port
   + password
   + publicKey
+  + contact
 * They should also contain a means of contacting the operator.
 * credentials should end with a newline character.
 
 
 ```
-"192.168.1.5:10326": {
-    "login": "default-login",
-    "password":"nq1uhmf06k8c5594jqmpgy26813b81s",
-    "publicKey":"ssxlh80x0bqjfrnbkm1801xsxyd8zd45jkwn1zhlnccqj4hdqun0.k",
-    "peerName":"your-name-goes-here"
+{
+    "192.168.1.5:10326": {
+        "login": "default-login",
+        "password":"nq1uhmf06k8c5594jqmpgy26813b81s",
+        "publicKey":"ssxlh80x0bqjfrnbkm1801xsxyd8zd45jkwn1zhlnccqj4hdqun0.k",
+        "peerName":"your-name-goes-here"
+    }
 }
-
 ```
-
-> Note: the snippet above is **not valid json**. It would need to be wrapped in an additional block of curly braces `{  }`
 
 ## Naming your entry
 
