@@ -51,8 +51,7 @@ By following this scheme, we make it possible for users to programmatically find
   + ip/port
   + password
   + publicKey
-  + contact
-* They should also contain a means of contacting the operator.
+  + contact (a means of contacting the operator)
 * credentials should end with a newline character.
 
 
