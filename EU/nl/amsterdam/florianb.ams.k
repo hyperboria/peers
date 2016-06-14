@@ -1,0 +1,9 @@
+{
+    "146.185.162.175:46398":{
+        "contact":"info@florianb.space",
+        "login":"public",
+        "password":"meshwithme",
+        "peerName":"florianb",
+        "publicKey":"g2xyf69w70q4q2nzfyhs5ybdhpgx0uz56zxqlj27g2ytnklqvxv0.k"
+    }
+}
