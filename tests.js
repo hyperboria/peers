@@ -57,9 +57,3 @@ if (insufficientFields.length) {
     console.log(insufficientFields);
 }
 
-/*  Credentials must be short enough *as is* that they will not trigger
-    the connectTo-overflow bug.
-*/
-
-// TODO check if this bug still exists in cjdns
-// TODO add bencoding and check length
