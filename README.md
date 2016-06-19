@@ -62,7 +62,7 @@ It's available as a module on npm:
 ### Usage
 
 ```Javascript
-var Peers = require("./index.js");
+var Peers = require("hyperboria-peers");
 
 /*  return a list of public peers located in North America */
 Peers.filter(function (creds, path) {
