@@ -70,3 +70,32 @@ By following this scheme, we make it possible for users to programmatically find
 Credential files must end with `.k`.
 Otherwise, you can name your file whatever you want, but for simplicity's sake, avoid characters which will need to be escaped at the command line.
 
+## Javascript API
+
+Peering credentials in this repository can be accessed via a simple Javascript API (using Nodejs).
+
+It's available as a module on npm:
+
+`npm install hyperboria-peers`
+
+### Usage
+
+```Javascript
+var Peers = require("./index.js");
+
+/*  return a list of public peers located in North America */
+Peers.filter(function (creds, path) {
+    return path.indexOf('NA') !== -1;
+});
+
+/*  return a list of public keys */
+Peers.map(function (creds, path) {
+    return creds[Object.keys(creds)[0]].publicKey;
+});
+
+/*  the underlying data is exposed in a nested json structure */
+console.log(Peers.peers);
+
+console.log(Peers.peers.NA.us.california);
+```
+

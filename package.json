@@ -1,0 +1,25 @@
+{
+  "name": "hyperboria-peers",
+  "version": "1.0.0",
+  "description": "A geographically sorted list of public peering credentials for joining Hyperboria",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyperboria/peers.git"
+  },
+  "keywords": [
+    "hyperboria",
+    "fc00",
+    "public",
+    "peers"
+  ],
+  "author": "ansuz",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/hyperboria/peers/issues"
+  },
+  "homepage": "https://github.com/hyperboria/peers#readme"
+}
