@@ -1,49 +1,28 @@
 # peers [![Build Status](https://secure.travis-ci.org/hyperboria/peers.png)](http://travis-ci.org/hyperboria/peers)
 
-listing public peers
+A geographically sorted list of public peering credentials for joining [Hyperboria](https://hyperboria.net/).
+
+Hyperboria uses [cjdns](https://github.com/cjdelisle/cjdns) to construct an end-to-end-encrypted ipv6 mesh network.
+Connections between nodes are established manually, and traffic is restricted to the resulting social graph.
+
+This repository exists for those who don't already know somebody on Hyperboria.
 
 ## Adding your public node's credentials
 
 If you've created a public node, and would like to have it listed here, fork the repo, add a keyfile, and submit a PR.
 
-## Nodeinfo.json
+### Filepath conventions
+Credentials are sorted geographically, by [continent](https://github.com/hyperboria/docs/blob/master/cjdns/nodeinfo-json.md#regarding-continent-codes), region, and municipality.
 
-This repository is meant to extend the [nodeinfo.json standard](https://github.com/hyperboria/docs/blob/master/cjdns/nodeinfo-json.md "nodeinfo.json standard, from Hyperboria's docs repo").
-`nodeinfo.json` is a valid [JSON](http://www.json.org/ "the Javascript Object Notation standard") file hosted on a webserver's root which displays information about that node:
+For example, a node in New York City is listed at `NA/us/newyork`.
 
-* services it hosts
-* who operates the node
-* where the node is located
+Region and municipality codes are based on self identification, not any ISO standard.
+An operator might prefer to list their node in Cascadia instead of Washington state.
+For simplicity's sake, we'd prefer that new credentials conform to existing structures.
 
-There are a number of individuals who have taken to analyzing data exposed by their nodes' cjdns admin interfaces, and by crawling webservers for html and structured JSON.
-Centralized listings make it easier for anyone to view information which node operators have volunteered, though, it should be trivial for you to verify this information by virtue of it being self-hosted.
+### JSON formatting
 
-## Naming conventions
-
-Node operators who have voluntarily included information about their nodes' location are making it easier to create a programmatic method of finding peers who are in your vicinity.
-The specification includes seven fields which make this possible:
-
-1. continent
-2. region
-3. municipality
-4. latitude
-5. longitude
-6. altitude
-7. uri
-
-Numbers 4-6 provide exact coordinates of a node. The structure of this repository will adhere to the hierarchy imposed by the first three.
-As such, if you'd like to list your node here, you will need to determine [your continent code](https://github.com/hyperboria/docs/blob/master/cjdns/nodeinfo-json.md#regarding-continent-codes), your region, and your municipality.
-
-Your continent should be relatively unambiguous, however, your region likely isn't.
-For our purposes, it only matters in that other members of your region should agree.
-Like hashtags, they are most effective when consistent and descriptive.
-Start by finding someone else in your area, and follow their lead.
-
-Assuming `peers/` is the repository root, your peering credentials should be located in `peers/{continent}/{region}/{municipality}/`.
-
-By following this scheme, we make it possible for users to programmatically find peers in their vicinity, which should make adoption of [cjdns](https://github.com/cjdelisle/cjdns) easier.
-
-## JSON formatting
+We have tried to standardize the structure of the actual credential files, as such, they have the strictest requirements of anything in this repository.
 
 * Your credentials must be [valid JSON](http://jsonlint.com/).
 * They must contain the necessary fields:
@@ -51,24 +30,26 @@ By following this scheme, we make it possible for users to programmatically find
   + password
   + publicKey
   + contact (a means of contacting the operator)
-* credentials should end with a newline character.
-
+* credentials should be formatted such that:
+  - there is a space after each colon
+  - indentation uses four spaces
+  - the file ends with a newline character.
 
 ```
 {
     "192.168.1.5:10326": {
         "login": "default-login",
-        "password":"nq1uhmf06k8c5594jqmpgy26813b81s",
-        "publicKey":"ssxlh80x0bqjfrnbkm1801xsxyd8zd45jkwn1zhlnccqj4hdqun0.k",
-        "peerName":"your-name-goes-here"
+        "password": "nq1uhmf06k8c5594jqmpgy26813b81s",
+        "publicKey": "ssxlh80x0bqjfrnbkm1801xsxyd8zd45jkwn1zhlnccqj4hdqun0.k",
+        "peerName": "your-name-goes-here"
     }
 }
 ```
 
-## Naming your entry
+### Naming your entry
 
 Credential files must end with `.k`.
-Otherwise, you can name your file whatever you want, but for simplicity's sake, avoid characters which will need to be escaped at the command line.
+Otherwise, you can name your file whatever you want, but for simplicity's sake, avoid characters which will need to be escaped at the command line (or within the javascript api).
 
 ## Javascript API
 
