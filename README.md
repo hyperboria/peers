@@ -46,7 +46,6 @@ By following this scheme, we make it possible for users to programmatically find
 ## JSON formatting
 
 * Your credentials must be [valid JSON](http://jsonlint.com/).
-* They should be small enough so as to be inserted into a `cjdroute.conf` **as is** without triggering the [connectTo-overflow bug](https://github.com/hyperboria/docs/blob/master/bugs/connectTo-overflow.md).
 * They must contain the necessary fields:
   + ip/port
   + password
@@ -68,4 +67,6 @@ By following this scheme, we make it possible for users to programmatically find
 
 ## Naming your entry
 
-You can name your file whatever you want, but for simplicity's sake, avoid characters which will need to be escaped at the command line.
+Credential files must end with `.k`.
+Otherwise, you can name your file whatever you want, but for simplicity's sake, avoid characters which will need to be escaped at the command line.
+
