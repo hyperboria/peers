@@ -1,6 +1,6 @@
 [![Build Status](https://secure.travis-ci.org/hyperboria/peers.png)](http://travis-ci.org/hyperboria/peers)
 
-A geographically sorted list of public peering credentials for joining [Hyperboria](https://hyperboria.net/).
+> A geographically sorted list of public peering credentials for joining [Hyperboria](https://hyperboria.net/).
 
 [Hyperboria](https://hyperboria.net/) uses [cjdns](https://github.com/cjdelisle/cjdns) to construct an end-to-end-encrypted ipv6 mesh network.
 Connections between nodes are established manually, and traffic is restricted to the resulting social graph.
