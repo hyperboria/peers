@@ -1,5 +1,6 @@
 var Fs = require("fs"),
     Path = require("path"),
+    DIRNAME = __dirname,
     read = function (p) {
         var content = Fs.readFileSync(p, 'utf-8');
         if (content.charAt(content.length - 1) !== '\n') {
@@ -40,12 +41,12 @@ var Fs = require("fs"),
                     find(peers, A.slice(1))[name] = {};
                     walk(A.concat(name));
                 } else if (/\.k$/.test(name)) {
-                    find(peers, A.slice(1))[name] = JSON.parse(Fs.readFileSync(fullPath, 'utf-8'));
+                    find(peers, A.slice(1))[name] = read(fullPath);
                 }
             });
         };
 
-        walk([__dirname]);
+        walk([DIRNAME]);
         return peers;
     }()),
     map = module.exports.map = function (f) {
