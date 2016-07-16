@@ -1,5 +1,5 @@
 {
-    "68.96.88.249:46242":{
+    "68.96.88.249:46242": {
         "contact": "kylerschin@gmail.com",
         "password": "1xbcjwq85z5qwmhjx1kclsx390yjl36",
         "login": "default-login",
