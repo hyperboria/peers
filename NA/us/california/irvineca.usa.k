@@ -5,6 +5,6 @@
         "publicKey":"p0j807r0cqsmm690wrbvljtxgkunn369hw9wknly307z6lhsj2w0.k",
         "peerName":"GlitchedPixels-Server",
         ipv6": "fcaa:8aba:1eb3:8130:67ce:546f:e043:1e62",
-        "contact": "kylerschin@gmail.com"
+        "contact": "kylerschin@gmail.com",
     }
 }
