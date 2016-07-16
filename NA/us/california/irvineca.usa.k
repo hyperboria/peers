@@ -5,5 +5,5 @@
             "login": "default-login",
             "peerName":"glitchedpixels-server",
             "publicKey":"p0j807r0cqsmm690wrbvljtxgkunn369hw9wknly307z6lhsj2w0.k"
-        }
+    }
 }
