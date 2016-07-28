@@ -1,0 +1,34 @@
+{
+    "46.235.225.176:31545":{
+        "contact":"hostmaster@cwningen.cymru",
+        "gpg":"B60E86E6",
+        "login":"public-peer",
+        "password":"p0w2yzku3lj126fs2z1wrlt1w684dzw",
+        "peerName":"llygaid.cwningen.cymru",
+        "publicKey":"8268mn1bvz66nbb74tqw7ynjkcjrtruv8pgjf9kr34zv5d60p3r0.k"
+    },
+    "93.93.129.43:31545":{
+        "contact":"hostmaster@cwningen.cymru",
+        "gpg":"B60E86E6",
+        "login":"public-peer",
+        "password":"p0zk85ff2lk3zbvgypzr1tvbu1gnlkc",
+        "peerName":"penfar.cwningen.cymru",
+        "publicKey":"7ktfb2n336bguhfx81ts15qgjb8mjj4rz3vrnvj2dw89wsmmtpg0.k"
+    },
+    "[2001:67c:2990:a00::2eeb:e1b0]:31545":{
+        "contact":"hostmaster@cwningen.cymru",
+        "gpg":"B60E86E6",
+        "login":"public-peer",
+        "password":"p0w2yzku3lj126fs2z1wrlt1w684dzw",
+        "peerName":"llygaid.cwningen.cymru",
+        "publicKey":"8268mn1bvz66nbb74tqw7ynjkcjrtruv8pgjf9kr34zv5d60p3r0.k"
+    },
+    "[2001:67c:2990:b00::5d5d:812b]:31545":{
+        "contact":"hostmaster@cwningen.cymru",
+        "gpg":"B60E86E6",
+        "login":"public-peer",
+        "password":"p0zk85ff2lk3zbvgypzr1tvbu1gnlkc",
+        "peerName":"penfar.cwningen.cymru",
+        "publicKey":"7ktfb2n336bguhfx81ts15qgjb8mjj4rz3vrnvj2dw89wsmmtpg0.k"
+    }
+}
