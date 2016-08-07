@@ -1,9 +1,8 @@
 {
-    "68.96.80.118:46242":{
+    "fc3f:bc82:a104:8933:ba0f:2d2c:de82:966:64137": {
         "contact":"kylerschin@gmail.com",
-        "login":"default-login",
-        "password":"1xbcjwq85z5qwmhjx1kclsx390yjl36",
-        "peerName":"glitchedpixels-server",
-        "publicKey":"p0j807r0cqsmm690wrbvljtxgkunn369hw9wknly307z6lhsj2w0.k"
+        "login": "default-login",
+            "password":"34pq18yfsc40yy360hz191u807gk6fk",
+            "publicKey":"tfxxckg18zfxrb3xs3p4f7d9xgxscg13v2zwtjh6ndn704n816l0.k",
     }
 }
