@@ -2,7 +2,7 @@
     "fc3f:bc82:a104:8933:ba0f:2d2c:de82:966:64137": {
         "contact":"kylerschin@gmail.com",
         "login": "default-login",
-            "password":"34pq18yfsc40yy360hz191u807gk6fk",
-            "publicKey":"tfxxckg18zfxrb3xs3p4f7d9xgxscg13v2zwtjh6ndn704n816l0.k",
+        "password":"34pq18yfsc40yy360hz191u807gk6fk",
+        "publicKey":"tfxxckg18zfxrb3xs3p4f7d9xgxscg13v2zwtjh6ndn704n816l0.k",
     }
 }
