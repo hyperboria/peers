@@ -1,5 +1,5 @@
 {
-    "eu-east.hub.icfreedom.net:22992":{
+    "178.17.171.153:22992":{
         "contact":"mixxit@hyperboria.name",
         "password":"g7575cd9p1f6cmubhy705b50f0qp95b",
         "peerName":"eu-east.hub.icfreedom.net",

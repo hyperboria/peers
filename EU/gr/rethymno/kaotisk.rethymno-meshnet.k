@@ -1,5 +1,5 @@
 {
-    "rethymno-meshnet.tk:38295":{
+    "94.66.56.135:38295":{
         "contact":"kaotisk@irc.fc00.io",
         "login":"default-login",
         "password":"wgs9k7n7j5yh0kx7kyl5m7cpp71ls4y",

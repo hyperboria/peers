@@ -1,5 +1,5 @@
 {
-    "play.fallofanempire.com:50005":{
+    "149.56.155.25:50005":{
         "contact":"mixxit@hyperboria.name",
         "password":"LTRXc&UQ>YQOB=zNSWh{^HXf%|ha5r)A)R/IV!dT",
         "peerName":"play.fallofanempire.com",

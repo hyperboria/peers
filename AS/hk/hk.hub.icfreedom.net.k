@@ -1,5 +1,5 @@
 {
-    "hk.hub.icfreedom.net:39119":{
+    "40.83.120.161:39119":{
         "contact":"mixxit@hyperboria.name",
         "password":"60dgptu2x8400qxnss5u1h9ld6h89p4",
         "peerName":"hk.hub.icfreedom.net",

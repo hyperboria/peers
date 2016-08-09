@@ -1,5 +1,5 @@
 {
-    "sg.hub.icfreedom.net:64221":{
+    "128.199.142.248:64221":{
         "contact":"mixxit@hyperboria.name",
         "password":"92tkn2fhkyx4p139v2320cs2d1407u0",
         "peerName":"sg.hub.icfreedom.net",
