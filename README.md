@@ -40,6 +40,8 @@ We have tried to standardize the structure of the actual credential files, as su
   - there is a space after each colon
   - indentation uses four spaces
   - the file ends with a newline character.
+* credentials must use IP:port strings for keys
+  - credentials using hostnames will not be accepted
 
 ```
 {
