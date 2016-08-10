@@ -3,6 +3,7 @@
 import json
 import os
 import sys
+import re
 
 REQUIRED_FIELDS = ['publicKey', 'password', 'contact']
 RECOMMENDED_FIELDS = ['gpg']
@@ -15,6 +16,8 @@ END = '\x1b[0m'
 
 def validate(path):
     """Test a single set of peering creds."""
+    if not re.match(".*\.k$", path):
+        return True
     print("Validating %s" % path)
     try:
         creds = open(path).read()
