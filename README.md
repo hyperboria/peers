@@ -37,17 +37,18 @@ We have tried to standardize the structure of the actual credential files, as su
   + publicKey
   + contact (a means of contacting the operator)
 * credentials should be formatted such that:
-  - there is a space after each colon
   - indentation uses four spaces
   - the file ends with a newline character.
+* credentials must use IP:port strings for keys
+  - credentials using hostnames will not be accepted
 
 ```
 {
     "192.168.1.5:10326": {
-        "login": "default-login",
-        "password": "nq1uhmf06k8c5594jqmpgy26813b81s",
-        "publicKey": "ssxlh80x0bqjfrnbkm1801xsxyd8zd45jkwn1zhlnccqj4hdqun0.k",
-        "peerName": "your-name-goes-here"
+        "login":"default-login",
+        "password":"nq1uhmf06k8c5594jqmpgy26813b81s",
+        "publicKey":"ssxlh80x0bqjfrnbkm1801xsxyd8zd45jkwn1zhlnccqj4hdqun0.k",
+        "peerName":"your-name-goes-here"
     }
 }
 ```
@@ -85,4 +86,3 @@ console.log(Peers.peers);
 
 console.log(Peers.peers.NA.us.california);
 ```
-
