@@ -1,8 +1,8 @@
 {
     "195.177.253.230:31545":{
         "contact":"hostmaster@cwningen.cymru",
-        "gpg": "2FCD 352C E105 73B5 E753  6B98 36C9 9B69 B60E 86E6", 
-        "gpg-public-key": "https://cwningen.cymru/gpg.pub",
+        "gpg":"2FCD 352C E105 73B5 E753  6B98 36C9 9B69 B60E 86E6",
+        "gpg-public-key":"https://cwningen.cymru/gpg.pub",
         "login":"public-peer",
         "password":"txxjhyblpsfg6v50gs6h70nxk793zlk",
         "peerName":"wisgers.cwningen.cymru",
@@ -10,8 +10,8 @@
     },
     "46.235.225.176:31545":{
         "contact":"hostmaster@cwningen.cymru",
-        "gpg": "2FCD 352C E105 73B5 E753  6B98 36C9 9B69 B60E 86E6", 
-        "gpg-public-key": "https://cwningen.cymru/gpg.pub",
+        "gpg":"2FCD 352C E105 73B5 E753  6B98 36C9 9B69 B60E 86E6",
+        "gpg-public-key":"https://cwningen.cymru/gpg.pub",
         "login":"public-peer",
         "password":"p0w2yzku3lj126fs2z1wrlt1w684dzw",
         "peerName":"llygaid.cwningen.cymru",
@@ -19,8 +19,8 @@
     },
     "93.93.129.43:31545":{
         "contact":"hostmaster@cwningen.cymru",
-        "gpg": "2FCD 352C E105 73B5 E753  6B98 36C9 9B69 B60E 86E6", 
-        "gpg-public-key": "https://cwningen.cymru/gpg.pub",
+        "gpg":"2FCD 352C E105 73B5 E753  6B98 36C9 9B69 B60E 86E6",
+        "gpg-public-key":"https://cwningen.cymru/gpg.pub",
         "login":"public-peer",
         "password":"p0zk85ff2lk3zbvgypzr1tvbu1gnlkc",
         "peerName":"penfar.cwningen.cymru",
@@ -28,8 +28,8 @@
     },
     "[2001:67c:2990:a00::2eeb:e1b0]:31545":{
         "contact":"hostmaster@cwningen.cymru",
-        "gpg": "2FCD 352C E105 73B5 E753  6B98 36C9 9B69 B60E 86E6", 
-        "gpg-public-key": "https://cwningen.cymru/gpg.pub",
+        "gpg":"2FCD 352C E105 73B5 E753  6B98 36C9 9B69 B60E 86E6",
+        "gpg-public-key":"https://cwningen.cymru/gpg.pub",
         "login":"public-peer",
         "password":"p0w2yzku3lj126fs2z1wrlt1w684dzw",
         "peerName":"llygaid.cwningen.cymru",
@@ -37,8 +37,8 @@
     },
     "[2001:67c:2990:b00::5d5d:812b]:31545":{
         "contact":"hostmaster@cwningen.cymru",
-        "gpg": "2FCD 352C E105 73B5 E753  6B98 36C9 9B69 B60E 86E6", 
-        "gpg-public-key": "https://cwningen.cymru/gpg.pub",
+        "gpg":"2FCD 352C E105 73B5 E753  6B98 36C9 9B69 B60E 86E6",
+        "gpg-public-key":"https://cwningen.cymru/gpg.pub",
         "login":"public-peer",
         "password":"p0zk85ff2lk3zbvgypzr1tvbu1gnlkc",
         "peerName":"penfar.cwningen.cymru",
@@ -46,8 +46,8 @@
     },
     "[2001:67c:2990:d00::c375:fde6]:31545":{
         "contact":"hostmaster@cwningen.cymru",
-        "gpg": "2FCD 352C E105 73B5 E753  6B98 36C9 9B69 B60E 86E6", 
-        "gpg-public-key": "https://cwningen.cymru/gpg.pub",
+        "gpg":"2FCD 352C E105 73B5 E753  6B98 36C9 9B69 B60E 86E6",
+        "gpg-public-key":"https://cwningen.cymru/gpg.pub",
         "login":"public-peer",
         "password":"txxjhyblpsfg6v50gs6h70nxk793zlk",
         "peerName":"wisgers.cwningen.cymru",
