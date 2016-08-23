@@ -1,7 +1,8 @@
 {
     "[2001:67c:2990:f00::9ef0:3eaf]:31545":{
         "contact":"hostmaster@cwningen.cymru",
-        "gpg":"B60E86E6",
+        "gpg": "2FCD 352C E105 73B5 E753  6B98 36C9 9B69 B60E 86E6",    
+        "gpg-public-key": "https://cwningen.cymru/gpg.pub",
         "login":"public-peer",
         "password":"hsfmhcphy3dpfy6f15hgyz30206dmry",
         "peerName":"pen.cwningen.cymru",
