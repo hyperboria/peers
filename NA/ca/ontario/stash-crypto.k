@@ -6,6 +6,13 @@
         "peerName":"git.stashcrypto.net",
         "publicKey":"zbfurpx9n6whzwu6vrlfgmw8g56rmchfmhxxtpg0hwhl84vqf1y0.k"
     },
+    "158.69.119.35:9218":{
+        "contact":"infrastructure@stashcrypto.com",
+        "login":"default-login",
+        "password":"w5huch4mn6tkgfp3j9sr8p8r13j3j33",
+        "peerName":"seed.stashcrypto.net",
+        "publicKey":"rzg61b3fsb675732g5rn8g1x61ypm1z7402n072qmrbbhgzm93f0.k"
+    },
     "[2607:5300:61:44f::]:55159":{
         "contact":"infrastructure@stashcrypto.com",
         "login":"default-login",
