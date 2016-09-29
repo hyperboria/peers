@@ -46,7 +46,7 @@ We have tried to standardize the structure of the actual credential files, as su
 
 ```
 {
-    "192.168.1.5:10326": {
+    "192.168.1.5:10326":{
         "contact":"alice@bob.com",
         "gpg":"FC00FC00FC00FC00",
         "login":"default-login",
@@ -90,4 +90,3 @@ console.log(Peers.peers);
 
 console.log(Peers.peers.NA.us.california);
 ```
-
