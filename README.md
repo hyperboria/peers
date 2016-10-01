@@ -18,9 +18,10 @@ To connect your node to one of these public peers, follow [the steps in the cjdn
 If you've created a public node, and would like to have it listed here, fork the repo, add a keyfile, and submit a PR.
 
 ### Filepath conventions
-Credentials are sorted geographically, by [continent](https://github.com/hyperboria/docs/blob/master/cjdns/nodeinfo-json.md#regarding-continent-codes), region, and municipality.
+Credentials are sorted geographically, by [continent](https://github.com/hyperboria/docs/blob/master/cjdns/nodeinfo-json.md#regarding-continent-codes) code.
+Nodes may be classified further, at the discretion of the node operator, and the administrators of the repository.
 
-For example, a node in New York City is listed at `NA/us/newyork`.
+The suggested format is `/continent/country/region/municipality`. For example, `/na/ca/ontario/toronto/`.
 
 Region and municipality codes are based on self identification, not any ISO standard.
 An operator might prefer to list their node in Cascadia instead of Washington state.
