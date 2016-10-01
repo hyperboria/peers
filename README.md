@@ -36,6 +36,8 @@ We have tried to standardize the structure of the actual credential files, as su
   + password
   + publicKey
   + contact (a means of contacting the operator)
+* The following fields are not yet required, but are recommended:
+  + gpg, listing your 16 character pgp fingerprint (no spaces)
 * credentials should be formatted such that:
   - indentation uses four spaces
   - the file ends with a newline character.
@@ -44,11 +46,13 @@ We have tried to standardize the structure of the actual credential files, as su
 
 ```
 {
-    "192.168.1.5:10326": {
+    "192.168.1.5:10326":{
+        "contact":"alice@bob.com",
+        "gpg":"FC00FC00FC00FC00",
         "login":"default-login",
         "password":"nq1uhmf06k8c5594jqmpgy26813b81s",
-        "publicKey":"ssxlh80x0bqjfrnbkm1801xsxyd8zd45jkwn1zhlnccqj4hdqun0.k",
-        "peerName":"your-name-goes-here"
+        "peerName":"your-name-goes-here",
+        "publicKey":"ssxlh80x0bqjfrnbkm1801xsxyd8zd45jkwn1zhlnccqj4hdqun0.k"
     }
 }
 ```
