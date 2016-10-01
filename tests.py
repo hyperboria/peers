@@ -5,7 +5,7 @@ import os
 import sys
 
 REQUIRED_FIELDS = ['publicKey', 'password', 'contact']
-RECOMMENDED_FIELDS = ['gpg']
+RECOMMENDED_FIELDS = ['gpg', 'peerName']
 
 RED = '\x1b[01;31m'
 GREEN = '\x1b[01;32m'
