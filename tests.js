@@ -37,23 +37,40 @@ if (credsWithDns.length) {
 */
 
 var requiredFields = ['password', 'publicKey', 'contact'];
+var recommendedFields = ['gpg'];
 
 var insufficientFields = Peers.filter(function (x, p) {
     var problem = false;
+    var comment = false;
+
+    var path = '/' + p.join('/');
+
+    var requiredMsg = "[%s] => %s is missing the required field '%s'";
+    var recommendedMsg = "[%s] => '%s' is missing the recommended field '%s'";
     Object.keys(x).map(function (k) {
         var cred = x[k];
         var fields = Object.keys(cred);
-        requiredFields.forEach(function (field) {
-            if (fields.indexOf(field) === -1) {
-                problem = true;
-            }
+
+        recommendedFields.forEach(function (field) {
+            if (typeof(cred[field]) !== 'undefined') { return; }
+            console.log(recommendedMsg, path, k, field);
+            comment = true;
+            problem = true;
         });
+
+        requiredFields.forEach(function (field) {
+            if (typeof(cred[field]) !== 'undefined') { return; }
+            console.error(requiredMsg, path, k, field);
+            problem = true;
+        })
     });
+
+    //if (comment || problem) { console.log(); }
     return problem;
 });
 
 if (insufficientFields.length) {
-    console.log("The following peers did not have all the required fields");
-    console.log(insufficientFields);
+    //console.log("The following peers did not have all the required fields");
+    //console.log(insufficientFields);
 }
 
