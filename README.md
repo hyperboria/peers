@@ -37,7 +37,8 @@ We have tried to standardize the structure of the actual credential files, as su
   + publicKey
   + contact (a means of contacting the operator)
 * The following fields are not yet required, but are recommended:
-  + gpg, listing your 16 character pgp fingerprint (no spaces)
+  + gpg, listing your 16 character pgp fingerprint (all caps, no spaces)
+  + peerName, a human-readable name for the node
 * credentials should be formatted such that:
   - indentation uses four spaces
   - the file ends with a newline character.
