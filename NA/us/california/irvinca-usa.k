@@ -1,9 +1,0 @@
-{
-    "68.96.80.118:64137":{
-        "contact":"kylerschin@gmail.com",
-        "login":"default-login",
-        "password":"34pq18yfsc40yy360hz191u807gk6fk",
-        "peerName":"h.glitchedpixels.com",
-        "publicKey":"tfxxckg18zfxrb3xs3p4f7d9xgxscg13v2zwtjh6ndn704n816l0.k"
-    }
-}
