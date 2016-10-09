@@ -1,0 +1,16 @@
+{
+    "192.34.85.155:2359":{
+        "contact":"Igel@hyperboria.ca",
+        "gpg":"A84DFFE62B451511",
+        "password":"alfa-charlie-alfa-bravo",
+        "peerName":"igel-boston",
+        "publicKey":"rdxg1nzvmjdj4fyguqydmnl659p7m3x26r6un4ql966q4xt988j0.k"
+    },
+    "[2602:ff65:0:1::fc00]:2359":{
+        "contact":"Igel@hyperboria.ca",
+        "gpg":"A84DFFE62B451511",
+        "password":"alfa-charlie-alfa-bravo",
+        "peerName":"igel-boston",
+        "publicKey":"rdxg1nzvmjdj4fyguqydmnl659p7m3x26r6un4ql966q4xt988j0.k"
+    }
+}
