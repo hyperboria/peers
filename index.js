@@ -1,4 +1,6 @@
 var Fs = require("fs"),
+    Package = require("./package.json"),
+    version = module.exports.version = Package.version,
     Path = require("path"),
     DIRNAME = __dirname,
     read = function (p) {

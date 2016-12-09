@@ -5,7 +5,7 @@ import os
 import sys
 
 REQUIRED_FIELDS = ['publicKey', 'password', 'contact']
-RECOMMENDED_FIELDS = ['gpg']
+RECOMMENDED_FIELDS = ['gpg', 'peerName']
 
 RED = '\x1b[01;31m'
 GREEN = '\x1b[01;32m'
@@ -29,7 +29,8 @@ def validate(path):
                     outfile.write(pretty)
                 print("    %sJSON in %s has been fixed.%s" % (YELLOW, path, END))
             else:
-                print("    %sJSON in %s is NOT properly formatted.%s" % (YELLOW, path, END))
+                print("    %sJSON in %s is NOT properly formatted! This is really easy to fix!"
+                      " just run tests.py --clean.%s" % (YELLOW, path, END))
                 formatting = False
         hosts = peers.keys()
         for host in hosts:

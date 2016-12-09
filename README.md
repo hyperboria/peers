@@ -18,9 +18,10 @@ To connect your node to one of these public peers, follow [the steps in the cjdn
 If you've created a public node, and would like to have it listed here, fork the repo, add a keyfile, and submit a PR.
 
 ### Filepath conventions
-Credentials are sorted geographically, by [continent](https://github.com/hyperboria/docs/blob/master/cjdns/nodeinfo-json.md#regarding-continent-codes), region, and municipality.
+Credentials are sorted geographically, by [continent](https://github.com/hyperboria/docs/blob/master/cjdns/nodeinfo-json.md#regarding-continent-codes) code.
+Nodes may be classified further, at the discretion of the node operator, and the administrators of the repository.
 
-For example, a node in New York City is listed at `NA/us/newyork`.
+The suggested format is `/continent/country/region/municipality`. For example, `/na/ca/ontario/toronto/`.
 
 Region and municipality codes are based on self identification, not any ISO standard.
 An operator might prefer to list their node in Cascadia instead of Washington state.
@@ -36,18 +37,24 @@ We have tried to standardize the structure of the actual credential files, as su
   + password
   + publicKey
   + contact (a means of contacting the operator)
+* The following fields are not yet required, but are recommended:
+  + gpg, listing your 16 character pgp fingerprint (all caps, no spaces)
+  + peerName, a human-readable name for the node
 * credentials should be formatted such that:
-  - there is a space after each colon
   - indentation uses four spaces
   - the file ends with a newline character.
+* credentials must use IP:port strings for keys
+  - credentials using hostnames will not be accepted
 
 ```
 {
-    "192.168.1.5:10326": {
-        "login": "default-login",
-        "password": "nq1uhmf06k8c5594jqmpgy26813b81s",
-        "publicKey": "ssxlh80x0bqjfrnbkm1801xsxyd8zd45jkwn1zhlnccqj4hdqun0.k",
-        "peerName": "your-name-goes-here"
+    "192.168.1.5:10326":{
+        "contact":"alice@bob.com",
+        "gpg":"FC00FC00FC00FC00",
+        "login":"default-login",
+        "password":"nq1uhmf06k8c5594jqmpgy26813b81s",
+        "peerName":"your-name-goes-here",
+        "publicKey":"ssxlh80x0bqjfrnbkm1801xsxyd8zd45jkwn1zhlnccqj4hdqun0.k"
     }
 }
 ```
@@ -85,4 +92,3 @@ console.log(Peers.peers);
 
 console.log(Peers.peers.NA.us.california);
 ```
-
