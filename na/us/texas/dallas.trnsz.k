@@ -1,0 +1,9 @@
+{
+    "198.58.100.240:22237":{
+        "contact":"jhj@trnsz.com",
+        "login":"default-login",
+        "password":"pqr5brz16vzzu6vhjuj7tv3n078kr5f",
+        "peerName":"trnsz",
+        "publicKey":"ubbtkp0txwjh44v8kkznvhjqqwr1hd2jzv5ms9zlkfk25svxvtg0.k"
+    }
+}
