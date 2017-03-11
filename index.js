@@ -43,7 +43,9 @@ var Fs = require("fs"),
                     find(peers, A.slice(1))[name] = {};
                     walk(A.concat(name));
                 } else if (/\.k$/.test(name)) {
-                    find(peers, A.slice(1))[name] = read(fullPath);
+                    var obj = find(peers, A.slice(1))[name] = read(fullPath);
+                    // embed the location in the object
+                    obj.location = A.slice(1);
                 }
             });
         };
@@ -69,7 +71,6 @@ var Fs = require("fs"),
                     var path = p.slice(0).concat(k);
 
                     if (isCred(k)) {
-                        //console.log(o[k]);
                         L.push(f(o[k], path));
                     }
                     walk(o[k], path, f);
