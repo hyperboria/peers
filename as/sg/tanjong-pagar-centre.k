@@ -1,0 +1,9 @@
+{
+    "128.199.97.254:50505":{
+        "contact":"chapman.shoop@riseup.net",
+        "login":"public-peer",
+        "password":"yrl3mxd0pngqvqyrwjlfdnd136tufln",
+        "peerName":"tanjong-pagar-centre",
+        "publicKey":"y14jr1vw37q4j54vct0827g4rs1sqr53t760nz8gc90wznwhsj60.k"
+    }
+}
