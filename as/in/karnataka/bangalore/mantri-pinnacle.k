@@ -1,0 +1,9 @@
+{
+    "139.59.64.32:50505":{
+        "contact":"chapman.shoop@riseup.net",
+        "login":"public-peer",
+        "password":"ldmgp3vbkhsgfxw7mn3f1guds005jgc",
+        "peerName":"mantri-pinnacle",
+        "publicKey":"x05tuxd13y3hqfpfl5zly78p5u21n0j839bh5ypnxj73mf04sy20.k"
+    }
+}
