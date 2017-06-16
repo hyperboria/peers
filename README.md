@@ -45,6 +45,9 @@ We have tried to standardize the structure of the actual credential files, as su
   - the file ends with a newline character.
 * credentials must use IP:port strings for keys
   - credentials using hostnames will not be accepted
+* If you are hosting it on a major server provider, please provide the name and shorthand for server. 
+  - On digitalocean, That may be ```digitalocean sfo2```
+  - On linode, that may be ```linode uswest``` or ```linode tokyo2```
 
 ```
 {
