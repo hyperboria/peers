@@ -48,6 +48,9 @@ We have tried to standardize the structure of the actual credential files, as su
 * If you are hosting it on a major server provider, please provide the name and shorthand for server. 
   - On digitalocean, That may be ```digitalocean sfo2```
   - On linode, that may be ```linode uswest``` or ```linode tokyo2```
+  - On AWS, use the region, followed by the city. Usable Server names are listed can be found on found on the [AWS WEBSITE](https://aws.amazon.com/about-aws/global-infrastructure/)
+  
+      EX: useastnorthernvirginia,useastohio,southamericasaopaulo
 
 ```
 {
