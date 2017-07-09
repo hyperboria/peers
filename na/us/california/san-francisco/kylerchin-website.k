@@ -13,5 +13,5 @@
             "publicKey":"qgj6dwnxkb1hfybpml4vxw84jzrj3zn1cqrj2kk3lswtkpbfqx60.k",
             "location":"digitalocean sfo2",
             "peerName":"kylerchin-website"
-     },
+     }
 }
