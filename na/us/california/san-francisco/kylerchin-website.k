@@ -1,20 +1,19 @@
 {
-    "138.197.204.54:29963":{
+    "138.68.23.173:40093":{
         "contact":"kylerschin@gmail.com",
-        "ipv6":"fc2b:2beb:99be:a006:cd56:7ae2:8093:8be0",
+        "ipv6":"fc8e:ff86:01ce:9740:38b0:cfde:deb1:6d74",
         "location":"digitalocean sfo2",
         "login":"default-login",
-        "password":"7jzsdnl642vm17tn3pjmh9sxc2ms40w",
-        "peerName":"kylers-awesome-website",
-        "publicKey":"ppj4n90uw68nvtmz7hz4g1ksubsxylgbhqg9p9x6f37vp4s599c0.k"
+        "password":"11440wtnb1282myfp1l7j6k0k4ldmtu",
+        "peerName":"kylerchin-website",
+        "publicKey":"qgj6dwnxkb1hfybpml4vxw84jzrj3zn1cqrj2kk3lswtkpbfqx60.k"
     },
-    "[2604:a880:2:d0:0:0:35ee:d001]:29963":{
+    "[2604:a880:2:d0::3d17:b001]:40093":{
         "contact":"kylerschin@gmail.com",
-        "ipv6":"fc2b:2beb:99be:a006:cd56:7ae2:8093:8be0",
         "location":"digitalocean sfo2",
         "login":"default-login",
-        "password":"7jzsdnl642vm17tn3pjmh9sxc2ms40w",
-        "peerName":"kylers-awesome-website",
-        "publicKey":"ppj4n90uw68nvtmz7hz4g1ksubsxylgbhqg9p9x6f37vp4s599c0.k"
+        "password":"11440wtnb1282myfp1l7j6k0k4ldmtu",
+        "peerName":"kylerchin-website",
+        "publicKey":"qgj6dwnxkb1hfybpml4vxw84jzrj3zn1cqrj2kk3lswtkpbfqx60.k"
     }
 }
