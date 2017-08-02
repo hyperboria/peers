@@ -3,12 +3,12 @@
             "login": "default-login",
             "password":"5ff9dmw4duycwlc1yn8yvxj3c256mf3",
             "publicKey":"vscjmbw7uurrynfqb9mw9u0uu97xflllkfg4zxhfjuvvfw235vq0.k",
-            "peerName":"your-name-goes-here"
+            "peerName":"ubuntu-512mb-sfo2-02"
         },
 "[2604:a880:2:d0::4817:a001]:17725": {
             "login": "default-login",
             "password":"5ff9dmw4duycwlc1yn8yvxj3c256mf3",
             "publicKey":"vscjmbw7uurrynfqb9mw9u0uu97xflllkfg4zxhfjuvvfw235vq0.k",
-            "peerName":"your-name-goes-here"
+            "peerName":"ubuntu-512mb-sfo2-02"
         }        
 }        
