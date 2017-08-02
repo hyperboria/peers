@@ -6,7 +6,7 @@
         "peerName":"solariot-1",
         "publicKey":"890j1rrvnc1kbdthf5l0xyfjvc4s3hgcvz965p822qj83vzxbnt0.k"
     },
-    "[2604:a880:2:d0::4817:9001]":{
+    "[2604:a880:2:d0::4817]:9001":{
         "contact":"",
         "login":"default-login",
         "password":"wg202lslyfr63gnsrx412us4t5qdx3q",
