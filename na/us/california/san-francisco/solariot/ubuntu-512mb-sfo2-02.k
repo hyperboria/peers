@@ -1,0 +1,16 @@
+{
+    "165.227.22.70:17725":{
+        "contact":"",
+        "login":"default-login",
+        "password":"5ff9dmw4duycwlc1yn8yvxj3c256mf3",
+        "peerName":"solariot-2",
+        "publicKey":"vscjmbw7uurrynfqb9mw9u0uu97xflllkfg4zxhfjuvvfw235vq0.k"
+    },
+    "[2604:a880:2:d0::4817:a001]:17725":{
+        "contact":"",
+        "login":"default-login",
+        "password":"5ff9dmw4duycwlc1yn8yvxj3c256mf3",
+        "peerName":"solariot-2",
+        "publicKey":"vscjmbw7uurrynfqb9mw9u0uu97xflllkfg4zxhfjuvvfw235vq0.k"
+    }
+}
