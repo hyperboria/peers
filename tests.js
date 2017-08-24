@@ -19,6 +19,7 @@ var isIp = function (host) {
 
 var credsWithDns = Peers.filter(function (x, p) {
     return Object.keys(x).some(function (k) {
+        if (Array.isArray(x[k])) { return; }
         return !isIp(k);
     });
 });
@@ -47,7 +48,10 @@ var insufficientFields = Peers.filter(function (x, p) {
 
     var requiredMsg = "[%s] => %s is missing the required field '%s'";
     var recommendedMsg = "[%s] => '%s' is missing the recommended field '%s'";
-    Object.keys(x).map(function (k) {
+    Object.keys(x).forEach(function (k) {
+        if (Array.isArray(x[k])) { return; }
+
+
         var cred = x[k];
         var fields = Object.keys(cred);
 
