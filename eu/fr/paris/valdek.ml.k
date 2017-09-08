@@ -1,0 +1,19 @@
+{
+    "51.254.84.52:40504":{
+        "contact":"workenergetix(a7)yandex.ru",
+        "login":"agusha",
+        "password":"IIYTNH_B3Pb1BAET_D0MA_HA_FEHOBAPBITA/\G_Bminor_Em_C_D",
+        "peerName":"valdek.ml",
+        "publicKey":"fnqfcu85xcxk6s052xzlu5rk68z91qyyf9jtf33cp48f8cuhl4g0.k"
+    }
+}
+
+{ 
+    "[2001:41d0:a:1a3b::49]:40504":{
+	"contact":"workenergetix(a7)yandex.ru",
+        "login":"agusha",
+        "password":"IIYTNH_B3Pb1BAET_D0MA_HA_FEHOBAPBITA/\G_Bminor_Em_C_D",
+        "peerName":"valdek.ml",
+        "publicKey":"fnqfcu85xcxk6s052xzlu5rk68z91qyyf9jtf33cp48f8cuhl4g0.k"
+    }
+}
