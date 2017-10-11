@@ -1,0 +1,16 @@
+{
+    "44.131.22.17:35377":{
+        "contact":"hostmaster@cwningen.cymru",
+        "login":"public-peer",
+        "password":"vd96mjvn7w2rzvsm5fw35qz050lczbl",
+        "peerName":"coes.cwningen.cymru",
+        "publicKey":"s8luk50utykxh6l228ycyrfydclcdddl0143wmg5mf0cpw42w4h0.k"
+    },
+    "[2001:67c:2990:d00::b974:ed95]:35377":{
+        "contact":"hostmaster@cwningen.cymru",
+        "login":"public-peer",
+        "password":"vd96mjvn7w2rzvsm5fw35qz050lczbl",
+        "peerName":"coes.cwningen.cymru",
+        "publicKey":"s8luk50utykxh6l228ycyrfydclcdddl0143wmg5mf0cpw42w4h0.k"
+    }
+}
