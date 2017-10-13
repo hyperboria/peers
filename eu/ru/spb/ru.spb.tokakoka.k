@@ -1,0 +1,9 @@
+{
+    "91.122.62.105:36510":{
+        "contact":"info@tokakoka.ru",
+        "login":"default-login",
+        "password":"hf3y45w5hf0ckl8zltldn8pry02lccd",
+        "peerName":"ru.spb.tokakoka",
+        "publicKey":"mvds4b1j97zn7uvxyczwsdhmcq5chs561gu0fml7996zvbvpmu00.k"
+    }
+}

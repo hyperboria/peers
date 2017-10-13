@@ -1,0 +1,9 @@
+{
+    "194.67.213.84:24519":{
+        "contact":"show.vars@gmail.com",
+        "login":"default-login",
+        "password":"37yuffz9hs4lk0wjnvyzj5yx45l444v",
+        "peerName":"node01.msk.ru-mesh.net",
+        "publicKey":"9f79752ml0p6glqdnj93352tj3hmctmf8jg8rbgp1wj8mh09lmv0.k"
+    }
+}
