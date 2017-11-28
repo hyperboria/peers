@@ -12,5 +12,5 @@
 		"publicKey":"wg0r0zmubnduq5rsqym072pd8ck8mh4g445wvghqhwzbh6fprnf0.k",
 		"peerName":"kylerchin-bootnode-1",
 		"contact":"kylerchin.com"
-	},
+	}
 }
