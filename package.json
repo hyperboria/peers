@@ -1,6 +1,6 @@
 {
   "name": "hyperboria-peers",
-  "version": "1.0.29",
+  "version": "1.0.30",
   "description": "A geographically sorted list of public peering credentials for joining Hyperboria",
   "main": "index.js",
   "scripts": {
