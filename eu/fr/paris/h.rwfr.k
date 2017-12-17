@@ -1,4 +1,4 @@
-}
+{
     "164.132.126.140:53340": {
         "contact":"anticipaste3@gmail.com",
         "login": "default-login",
