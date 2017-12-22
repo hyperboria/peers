@@ -4,7 +4,7 @@ import json
 import os
 import sys
 
-REQUIRED_FIELDS = ['publicKey', 'password', 'contact']
+REQUIRED_FIELDS = ['publicKey', 'password', 'contact', 'peerName']
 RECOMMENDED_FIELDS = ['gpg', 'login']
 
 RED = '\x1b[01;31m'
