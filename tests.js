@@ -37,7 +37,7 @@ if (credsWithDns.length) {
     * contact
 */
 
-var requiredFields = ['password', 'publicKey', 'contact'];
+var requiredFields = ['password', 'publicKey', 'contact', 'peerName'];
 var recommendedFields = ['gpg', 'peerName'];
 
 var insufficientFields = Peers.filter(function (x, p) {
