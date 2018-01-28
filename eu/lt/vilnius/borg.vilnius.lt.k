@@ -1,0 +1,9 @@
+{
+    "185.25.48.153:13109":{
+        "contact":"xmpp:borg@xabber.org",
+        "password":"public",
+        "peerName":"borg-vilnius",
+        "publicKey":"pkq30hrl9zyzwn03u6lchh20crfgq46m1dfb5zwfhpx3c6v2l420.k",
+        "user":"public"
+    }
+}
