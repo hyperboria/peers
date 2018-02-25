@@ -1,5 +1,5 @@
 {
-    "185.166.239.90:27823":{
+    "185.243.112.90:27823":{
         "contact":"Igel@hyperboria.ca",
         "gpg":"A84DFFE62B451511",
         "password":"alfa-charlie-alfa-bravo",
