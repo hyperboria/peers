@@ -1,0 +1,16 @@
+{
+    "185.35.202.206:21024":{
+        "contact":"styret@hackeriet.no",
+        "login":"default-login",
+        "password":"tj0vkzk9rgub9888h3tf9gtm712tkuc",
+        "peerName":"hyperboria.hackeriet.no",
+        "publicKey":"ny7v0951b703j4t2n4pyz474nny46wvbtq46x7hc8r2jql40dmr0.k"
+    },
+    "[2a02:ed06::206]:21024":{
+        "contact":"styret@hackeriet.no",
+        "login":"default-login",
+        "password":"tj0vkzk9rgub9888h3tf9gtm712tkuc",
+        "peerName":"hyperboria.hackeriet.no",
+        "publicKey":"ny7v0951b703j4t2n4pyz474nny46wvbtq46x7hc8r2jql40dmr0.k"
+    }
+}
