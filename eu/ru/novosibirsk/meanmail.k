@@ -1,7 +1,7 @@
 {
     "91.234.81.181:7485":{
         "contact":"cjdns@meanmail.ru",
-        "gpg":"1B6E25F329DF6577734B4463A4526DCF39E67886",
+        "gpg":"82A4C11393800B6AEBC790D2EC1F3EE797AF5FA2",
         "login":"default-login",
         "password":"zfhb88fzf2lmpb5g2bgju6ps33lfr1c",
         "peerName":"meanmail",
