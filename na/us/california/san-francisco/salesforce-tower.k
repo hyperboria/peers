@@ -1,9 +1,0 @@
-{
-    "138.68.245.159:50505":{
-        "contact":"chapman.shoop@riseup.net",
-        "login":"public-peer",
-        "password":"7ztkh2m3p97z0fcyn50wmtx863n6b3j",
-        "peerName":"salesforce-tower",
-        "publicKey":"6d2kt2hbcp7v0pw9q6f1u2s039kfnt4m4123rjxg26hsgrc12v80.k"
-    }
-}
