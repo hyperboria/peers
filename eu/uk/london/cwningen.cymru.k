@@ -1,30 +1,16 @@
 {
-    "44.131.22.1:43022":{
+    "93.93.129.43:43022":{
         "contact":"hostmaster@cwningen.cymru",
         "login":"public-peer",
         "password":"s22z2q6y8fsj28myjlp7yx6gv0wn1q2",
         "peerName":"penfar.cwningen.cymru",
         "publicKey":"pp6c01cnz51t2vyl1jmzbply1n662c13nm6mzprx0g5djkvl3470.k"
     },
-    "44.131.22.48:9740":{
-        "contact":"hostmaster@cwningen.cymru",
-        "login":"public-peer",
-        "password":"6uyxcspqzuxycd1nrwjugmhfh7r2qwd",
-        "peerName":"traed.cwningen.cymru",
-        "publicKey":"p8q8bsbvlr3xjh2hqlzyfcgjsk2mjm7fl8s5w73v68925n4f6nb0.k"
-    },
-    "[2001:67c:2990:b00::5d5d:812b]:43022":{
+    "[2a00:1098:80:b::5d5d:812b]:43022":{
         "contact":"hostmaster@cwningen.cymru",
         "login":"public-peer",
         "password":"s22z2q6y8fsj28myjlp7yx6gv0wn1q2",
         "peerName":"penfar.cwningen.cymru",
         "publicKey":"pp6c01cnz51t2vyl1jmzbply1n662c13nm6mzprx0g5djkvl3470.k"
     },
-    "[2001:67c:2990:f00::5d5d:32fd]:9740":{
-        "contact":"hostmaster@cwningen.cymru",
-        "login":"public-peer",
-        "password":"6uyxcspqzuxycd1nrwjugmhfh7r2qwd",
-        "peerName":"traed.cwningen.cymru",
-        "publicKey":"p8q8bsbvlr3xjh2hqlzyfcgjsk2mjm7fl8s5w73v68925n4f6nb0.k"
-    }
 }
