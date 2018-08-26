@@ -96,5 +96,5 @@ Peers.map(function (creds, path) {
 /*  the underlying data is exposed in a nested json structure */
 console.log(Peers.peers);
 
-console.log(Peers.peers.NA.us.california);
+console.log(Peers.peers.na.us.california);
 ```
