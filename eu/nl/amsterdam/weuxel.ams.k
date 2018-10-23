@@ -1,9 +1,0 @@
-{
-    "188.226.183.183:43328":{
-        "contact":"hype@smash-net.org",
-        "password":"public_access",
-        "peerName":"weuxel.ams",
-        "publicKey":"1y1jmqrw4r31jlp6yqmq30067rcp0tsgsdm3cs4k8l33pyfhpwn0.k",
-        "user":"weuxel"
-    }
-}
