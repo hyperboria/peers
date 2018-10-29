@@ -1,16 +1,16 @@
 {
-    "185.35.202.206:21024":{
-        "contact":"styret@hackeriet.no",
-        "login":"default-login",
-        "password":"tj0vkzk9rgub9888h3tf9gtm712tkuc",
+    "185.35.202.206:60392":{
+        "contact":"nett@hackeriet.no",
+        "login":"public",
+        "password":"bKOWX81lA1qHLdi1kxw8qZC1",
         "peerName":"hyperboria.hackeriet.no",
-        "publicKey":"ny7v0951b703j4t2n4pyz474nny46wvbtq46x7hc8r2jql40dmr0.k"
+        "publicKey":"vufgpj15lvfcwu9rk6vg0y14rl1xhg3m491bjlus5zr6bq9llcb0.k"
     },
-    "[2a02:ed06::206]:21024":{
-        "contact":"styret@hackeriet.no",
-        "login":"default-login",
-        "password":"tj0vkzk9rgub9888h3tf9gtm712tkuc",
+    "[2a02:ed06::206]:60392":{
+        "contact":"nett@hackeriet.no",
+        "login":"public",
+        "password":"bKOWX81lA1qHLdi1kxw8qZC1",
         "peerName":"hyperboria.hackeriet.no",
-        "publicKey":"ny7v0951b703j4t2n4pyz474nny46wvbtq46x7hc8r2jql40dmr0.k"
+        "publicKey":"vufgpj15lvfcwu9rk6vg0y14rl1xhg3m491bjlus5zr6bq9llcb0.k"
     }
 }
