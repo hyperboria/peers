@@ -1,0 +1,9 @@
+{
+    "160.20.147.198:53340":{
+        "contact":"anticipaste3@gmail.com",
+        "login":"default-login",
+        "password":"w6db8n5gb4wtjy0ud32vhql7469g1sb",
+        "peerName":"h.rwfr.k",
+        "publicKey":"byxcwmgbhkcgt3vv2820vujbc65szwkn9sj7vk1x3tjdw4q0sc30.k"
+    }
+}
