@@ -15,7 +15,9 @@ To connect your node to one of these public peers, follow [the steps in the cjdn
 
 ## Adding your public node's credentials
 
-If you've created a public node, and would like to have it listed here, fork the repo, add a keyfile, and submit a PR.
+If you've created a public node, and would like to have it listed here, fork the repo, add a keyfile, run `./tests.py` (make sure your file passes the test), and submit a PR.
+
+We won't merge your credentials until our tests are passing.
 
 ### Filepath conventions
 Credentials are sorted geographically, by [continent](https://github.com/hyperboria/docs/blob/master/cjdns/nodeinfo-json.md#regarding-continent-codes) code.
