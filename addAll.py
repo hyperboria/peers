@@ -1,4 +1,5 @@
 # This script will generate somethings you just have to copy in your cjdroute.conf containing all the nodes
+# You just have to copy the output in to connectTo
 
 # If no argument was given it will output for ipv4 and if -6 is given it will run for ipv6
 
@@ -35,4 +36,4 @@ for i in ["as","sa","na","af","eu","an","oc"]:
     if exists(i):
         search(i)
 
-stdout.write(dumps(nodes_list) + "\n")
+stdout.write("".join(list(dumps(nodes_list))[1:-1]) + "\n")
