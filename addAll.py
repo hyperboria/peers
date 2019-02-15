@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # This script will generate somethings you just have to copy in your cjdroute.conf containing all the nodes
 # You just have to copy the output in to connectTo
 
