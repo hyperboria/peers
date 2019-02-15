@@ -37,3 +37,5 @@ for i in ["as","sa","na","af","eu","an","oc"]:
         search(i)
 
 stdout.write("".join(list(dumps(nodes_list))[1:-1]) + "\n")
+
+exit(1)
