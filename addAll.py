@@ -22,12 +22,16 @@ def search(path):
                     for k, v in loads(f.read()).items():
                         # If ip format is the same as requested.
                         if ("." in k) is (not "-6" in argv):
-                            nodes_list[k] = {
+                            node = {
                                 "password": v["password"],
                                 "publicKey": v["publicKey"],
-                                "login": v["login"],
                                 "contact": v["contact"]
                             }
+                            try:
+                                node["login"] = v["login"]
+                            except:
+                                pass
+                            nodes_list[k] = node
             except:
                 stderr.write("Got an error while reading : " + thing + "\n")
         else:
