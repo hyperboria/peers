@@ -1,0 +1,16 @@
+{
+    "51.15.3.66:27410":{
+        "contact":"adraenwan@tfnux.org",
+        "login":"public-peer",
+        "password":"jkb46blldfp56j3lbm37nj3uj1j72h1",
+        "peerName":"h.totem.tfnux.org",
+        "publicKey":"8bqv77rkzn888mcr8wu3k9b22hpczhn7c0zzyrqpj4bbx8rbf810.k"
+    },
+    "[2001:bc8:2495:100::1]:27410":{
+        "contact":"adraenwan@tfnux.org",
+        "login":"public-peer",
+        "password":"jkb46blldfp56j3lbm37nj3uj1j72h1",
+        "peerName":"h.totem.tfnux.org",
+        "publicKey":"8bqv77rkzn888mcr8wu3k9b22hpczhn7c0zzyrqpj4bbx8rbf810.k"
+    }
+}
