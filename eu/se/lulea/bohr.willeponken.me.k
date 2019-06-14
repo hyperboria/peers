@@ -1,0 +1,10 @@
+{
+    "130.240.202.22:5039":{
+        "contact":"william@willeponken.me",
+        "gpg":"DECA60149478ECFE",
+        "login":"public-peer",
+        "password":"zuqcdlv9kj0cvghl4vdx28bcz4vnzf9",
+        "peerName":"bohr.willeponken.me",
+        "publicKey":"b83r3fpguqp0w506n1u41dx8wk9kd7shv7ldfy7vxkkxb6h7yjj0.k"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "185.35.202.206:60392":{
+        "contact":"nett@hackeriet.no",
+        "login":"public",
+        "password":"bKOWX81lA1qHLdi1kxw8qZC1",
+        "peerName":"hyperboria.hackeriet.no",
+        "publicKey":"vufgpj15lvfcwu9rk6vg0y14rl1xhg3m491bjlus5zr6bq9llcb0.k"
+    },
+    "[2a02:ed06::206]:60392":{
+        "contact":"nett@hackeriet.no",
+        "login":"public",
+        "password":"bKOWX81lA1qHLdi1kxw8qZC1",
+        "peerName":"hyperboria.hackeriet.no",
+        "publicKey":"vufgpj15lvfcwu9rk6vg0y14rl1xhg3m491bjlus5zr6bq9llcb0.k"
+    }
+}

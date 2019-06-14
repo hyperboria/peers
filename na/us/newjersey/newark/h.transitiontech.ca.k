@@ -1,9 +1,0 @@
-{
-    "104.200.29.163:53053":{
-        "contact":"ansuz@transitiontech.ca",
-        "gpg":"024A7C03E67ED8CF",
-        "password":"cLjDBorhsYJUmJrESGueHsRY4HXcFyj",
-        "peerName":"transitiontech",
-        "publicKey":"1941p5k8qqvj17vjrkb9z97wscvtgc1vp8pv1huk5120cu42ytt0.k"
-    }
-}
