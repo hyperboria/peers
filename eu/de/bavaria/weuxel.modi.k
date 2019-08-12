@@ -1,9 +1,0 @@
-{
-    "195.201.148.242:26721":{
-        "contact":"hype@smash-net.org",
-        "password":"public_access",
-        "peerName":"weuxel.modi",
-        "publicKey":"1gy9myu5fhd2uhbjgju6nn54uwgz1dtr5g9r3kwsc5r9f32567s0.k",
-        "user":"weuxel"
-    }
-}
