@@ -1,9 +1,0 @@
-{
-    "50.236.201.218:57776":{
-        "contact":"stephen304@gmail.com",
-        "login":"public",
-        "password":"88xf53d9ytks9bgvuy24yrs3d7lx2wj",
-        "peerName":"cjdns.stephen304.com",
-        "publicKey":"8hpgpx0lwh9bz314cd9cjtchu5149s23yk8d4fqc5z1tkq2hzv00.k"
-    }
-}
