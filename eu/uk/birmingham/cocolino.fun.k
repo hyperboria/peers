@@ -1,7 +1,7 @@
 {
-    "82.5.34.168:37144":{
+    "82.7.89.242:37144":{
         "contact":"arvamircea@gmail.com",
-        "gpg":"NULL",
+        "gpg":"D8E7 0DAC 2CB9 F4DE 2728 00D5 8CCA F633 B685 9E80",
         "login":"julian_assange_public",
         "password":"qu3r1l25lgqkqspjhms1phclj56tvr5",
         "peerName":"Coco's public node",
