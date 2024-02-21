@@ -1,5 +1,5 @@
 {
-    "80.218.59.16:56879":{
+    "81.6.2.165:56879":{
         "contact":"gopfertaminomal@theswissbay.ch",
         "login":"theswissbay-peering-login",
         "password":"rr1lsx8vvxq7m5107gvsn98gc2h2l54",
